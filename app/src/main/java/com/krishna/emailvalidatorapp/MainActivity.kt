@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val email = "myName@example.com"
+        val email = "krishna.vasamsetti@wipro.com"
         val valid = true //EmailValidator.getInstance().isValid(email)
 
         Toast.makeText(this, "IsValid Email($email) : $valid", Toast.LENGTH_SHORT).show()
