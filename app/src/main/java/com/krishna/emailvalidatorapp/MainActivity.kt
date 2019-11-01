@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         val email = "krishna.vasamsetti@wipro.com"
         val valid = true //EmailValidator.getInstance().isValid(email)
 
-        Toast.makeText(this, "IsValid Email($email) : $valid", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "IsValid Email($email) ::::::: $valid", Toast.LENGTH_SHORT).show()
     }
 }
